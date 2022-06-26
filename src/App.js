@@ -1,10 +1,12 @@
-
+import React from 'react';
 import './App.css';
-import 'bootstarp/dist/css/bootstarp.min.css'
+import MainComponent from './components/MainComponent.js'
+
 
 function App() {
   return (
     <div className="App">
+      <MainComponent />
     </div>
   );
 }
