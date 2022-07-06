@@ -12,7 +12,7 @@ class Menu extends Component {
 
 
     onDishSelect = (dish) => {
-        console.log(dish)
+        // console.log(dish)
         this.setState({ selectedDish : dish })
     }
 

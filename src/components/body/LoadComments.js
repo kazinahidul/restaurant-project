@@ -3,6 +3,7 @@ import dateFormat from 'dateformat';
 
 
 const LoadComments = (props) => {
+    console.log(props)
     return (
         props.comments.map(comment => {
             return (
